@@ -3,7 +3,7 @@ entries:
   alb-ingress-controller-helm:
   - apiVersion: v1
     appVersion: 1.0-beta.4
-    created: 2018-07-19T02:41:29.740208616-07:00
+    created: 2018-07-19T03:21:04.658177564-07:00
     description: The ALB Ingress Controller satisfies Kubernetes ingress resources
       by provisioning Application Load Balancers.
     digest: 08a68518638058e5945153d7f3c56c83175478068b8f8935b0a2df07a43e4bff
@@ -23,4 +23,15 @@ entries:
     urls:
     - alb-ingress-controller-helm-0.0.10.tgz
     version: 0.0.10
-generated: 2018-07-19T02:41:29.738869372-07:00
+  coreplane-alb-ingress-singleton:
+  - apiVersion: v1
+    appVersion: "1.0"
+    created: 2018-07-19T03:21:04.658396999-07:00
+    description: Singleton instance of ALB ingress that creates one AWS load balancer
+      and points it at nginx-ingress-controller.
+    digest: 51f068952b9f8b84f4585c123cb431d3127fb50dd64f4e1e4944c1c0558c2c7d
+    name: coreplane-alb-ingress-singleton
+    urls:
+    - coreplane-alb-ingress-singleton-0.1.0.tgz
+    version: 0.1.0
+generated: 2018-07-19T03:21:04.656245797-07:00
