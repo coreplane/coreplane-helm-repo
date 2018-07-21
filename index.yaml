@@ -3,7 +3,7 @@ entries:
   alb-ingress-controller-helm:
   - apiVersion: v1
     appVersion: 1.0-beta.4
-    created: 2018-07-19T03:49:42.623796292-07:00
+    created: 2018-07-21T02:47:18.56949833-07:00
     description: The ALB Ingress Controller satisfies Kubernetes ingress resources
       by provisioning Application Load Balancers.
     digest: 08a68518638058e5945153d7f3c56c83175478068b8f8935b0a2df07a43e4bff
@@ -26,17 +26,17 @@ entries:
   coreplane-alb-ingress-singleton:
   - apiVersion: v1
     appVersion: "1.0"
-    created: 2018-07-19T03:49:42.624081914-07:00
+    created: 2018-07-21T02:47:18.569730997-07:00
     description: Singleton instance of ALB ingress that creates one AWS load balancer
       and points it at nginx-ingress-controller.
-    digest: 02127726acc3af62dcb8cd3f260a3a9a1975859f7a185b6e2896868e1f81bfa7
+    digest: a69ad412bcae31d56a175cdd9894297fc9996f7d573694591279dfaa09730c5d
     name: coreplane-alb-ingress-singleton
     urls:
-    - coreplane-alb-ingress-singleton-0.1.0.tgz
-    version: 0.1.0
+    - coreplane-alb-ingress-singleton-0.1.1.tgz
+    version: 0.1.1
   kubernetes-dashboard:
   - appVersion: 1.8.3
-    created: 2018-07-19T03:49:42.624524756-07:00
+    created: 2018-07-21T02:47:18.570193183-07:00
     description: General-purpose web UI for Kubernetes clusters
     digest: ebdac1b13a8c2390a16d4b66dbf61c83022cca10a0e5f351bfc502d7566882f8
     home: https://github.com/kubernetes/dashboard
@@ -53,4 +53,4 @@ entries:
     urls:
     - kubernetes-dashboard-0.7.1-cp.tgz
     version: 0.7.1-cp
-generated: 2018-07-19T03:49:42.622944218-07:00
+generated: 2018-07-21T02:47:18.56872688-07:00
