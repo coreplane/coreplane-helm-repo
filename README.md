@@ -12,6 +12,6 @@ helm repo index .
 # CONTENTS
 
 - `alb-ingress-controller-helm` from https://github.com/kubernetes-sigs/aws-alb-ingress-controller/tree/master/alb-ingress-controller-helm
-- `coreplane-alb-ingress-singleton` from https://github.com/maasdigital/coreplane-infra
+- `coreplane-alb-ingress-singleton` from https://github.com/coreplane/coreplane-infra
 - `kubernetes-dashboard` from
-  https://github.com/maasdigital/kubernetes-charts (modified fork of https://github.com/kubernetes/charts)
+  https://github.com/coreplane/kubernetes-charts (modified fork of https://github.com/kubernetes/charts)
